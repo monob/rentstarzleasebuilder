@@ -1,0 +1,31 @@
+body{
+	background: #2B313B;
+	background: url(noisetexture.png), -webkit-linear-gradient(#475161,#2B313B) no-repeat, #2B313B;
+	background: url(noisetexture.png), -moz-linear-gradient(#475161,#2B313B) no-repeat, #2B313B;
+	background: url(noisetexture.png), -o-linear-gradient(#475161,#2B313B) no-repeat, #2B313B;
+	background: url(noisetexture.png), -ms-linear-gradient(#475161,#2B313B) no-repeat, #2B313B;
+	background: url(noisetexture.png), linear-gradient(#475161,#2B313B) no-repeat, #2B313B;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#475161', endColorstr='#2B313B',GradientType=0 );
+} 
+
+
+.form-group{ width: 50%;
+
+background:  hsl(0, 0%, 95%);
+position: relative;
+left: 250px;
+margin-bottom: 10px;
+
+
+}
+#First_name{ width: 75%;
+position: relative;
+left: 75px;
+
+}
+#Last_name{ width: 75%;
+position: relative;
+left: 75px;
+
+}
+#Email{w
