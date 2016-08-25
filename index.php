@@ -33,7 +33,7 @@
 
 		<nav class="navbar navbar-inverse"><div class="  btn-group" role="group" aria-label="...">
           
-          <button type="button" id="createleasebutton"  a href="rentstarzleasebuilder/createlease.php"> create lease </button>
+          <button type="button" id="createleasebutton""> create lease </button>
          
          <button type="button" id="editbutton">edit</button>
          
@@ -41,19 +41,23 @@
          
          <button type="button" id="mytenantbutton">my tenants</button>
          
-         <button type="button" id="mybuilding">my buildings</button>
+         <button type="button" id="myproperties">my Properties</button>
          
          <button type="button" id="totalincombutton" >total income</button>
     
         <button type ="button" id="logoutLink"> logged out </button>
+    
+      
+
+
     </div>
   
        </nav>
        <?php
 		    //echo "<a id='logoutLink'>log out</a> | Welcome you are logged in";
 		    
-             //include("partials/login.php");
-		   // include("partials/profile.php");
+           //include("partials/login.php");
+		// include("partials/profile.php");
 
 		    /*include("rental_partial/landlordinfo1B.php");*/
 		   }else{ 
@@ -64,7 +68,7 @@
 
 		   
 
-		    //include("partial/login.php");
+		  //include("partials/login.php");
 
 		   
 

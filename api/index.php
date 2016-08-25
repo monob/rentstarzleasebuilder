@@ -21,15 +21,11 @@
 			break;
 		case "1b":
 			$landlord = $request["landlordName"];
-
 			$result['status'] = $leaseMgr->save1b( $landlord );
-
-
 			break;
 		case "userRegistration":
 			$result['test'] = $request['username'];
-	 		 $result['status'] 	 = $userMgr->registerUser( $request['username'], $request['password']);
-			 
+	 		$result['status'] 	 = $userMgr->registerUser( $request['username'], $request['password']);
 			break;
 		case "userLogin":
 			$result['status'] 	 = $userMgr->loginUser( $request['username'], $request['password']);
@@ -39,6 +35,12 @@
 			break;
 		case "userProfile":
 			$result['status'] 	= $userMgr->setUserMetaData( "u_name", $request['u_name']);
+			break;
+		case "addProperty":
+			$result['status'] 	= $propertyMgr->addProperty($request['propertyType'], $request['unit'], $request['location'], $request['rentalIncome'] );
+			break;
+		case "getLeaseData":
+
 			break;
 	}
 

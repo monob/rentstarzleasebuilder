@@ -25,6 +25,54 @@ $(document).ready(function(){
 
 	
 
+    $("#mytenantbutton").click(function(){
+       
+        var dataSrc = "mytenant";
+		var data = { tenantName: tenanatname }
+		sendData( dataSrc, data );
+    });
+	
+
+   $("#myproperties").click(function(){
+       
+        var dataSrc = "myproperties";
+		var data = { listofmyproperties: myproperties }
+		sendData( dataSrc, data );
+    });
+	
+    
+    $("#totalincomebutton").click(function(){
+       
+        var dataSrc = "totalincomebutton";
+		var data = { totalincomebutton: totalincomebutton }
+		sendData( dataSrc, data );
+    }); 
+
+    
+    
+    $("#mylease").click(function(){
+       
+        var dataSrc = "mylease";
+		var data = { mylease : mylease }
+		sendData( dataSrc, data );
+    }); 
+
+
+
+    $("#editbutton").click(function(){
+       
+        var dataSrc = "editbutton";
+		var data = { editbutton : editbutton }
+		sendData( dataSrc, data );
+    }); 
+
+
+
+	
+
+
+
+
 
 	$("#userReg_btn").click( function(){
         var username 	= $("#username").val();

@@ -21,7 +21,7 @@ class LeaseManager{
 	public function createLease(){
 		$leaseID = $this->dbCon->insertRecord( "leases",
 									array("leaseName"),
-									array("awesomeLease")
+									array(0)
 									);
 		return $leaseID;
 	}
@@ -44,4 +44,4 @@ class LeaseManager{
 
 
 }
-?>hhnfzzfghsszgfgshfgfxzhghsgznmcnvmfcvjfncmnfkvmkdmfklmklfjklngkgnflkjgklrmgklvjkgkrjkf
+?>

@@ -59,13 +59,13 @@
 		</ol>
 
 		<?php
-				if(isset($_SESSION['userID'])){
+			/*	if(isset($_SESSION['userID'])){
 					echo "logged in";
 				}else{
 					echo "not logged in";
 				}
-		?>  
-
+		*/?>  
+          
 			
 	</fieldset>
  </form>

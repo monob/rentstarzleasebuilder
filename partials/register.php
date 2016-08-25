@@ -40,7 +40,7 @@
 <form id="myform" class="group" action="#" method="POST">
 	<fieldset id="login" title="register info">
 		<legend>register</legend>
-		<ol>
+	<ol>
 			<li>
 				<label for="myname">First name *</label>
 				<input type="text" name="Firstname" id="firstname" title="Please enter your username." autofocus placeholder="First name" required />
@@ -58,27 +58,27 @@
 				<input type="text" name="username" id="user_name" title="Please enter your username." autofocus placeholder="User name" required />
 			</li>
 
-          <li>
+           <li>
 				<label for="myname">Email *</label>
 				<input type="text" name="username" id="Email" title="Please enter email." autofocus placeholder="Email" required />
 			</l>
 			
          
-          <li>
+           <li>
 				<label for="password">Password</label>
 				<input type="password" name="pass1" id="pass1" />
-		 </li>
+		    </li>
 		
-          <li>
+            <li>
 				<label for="password">Password</label>
 				<input type="password" name="pass2" id="pass2" placeholder="re-enter password" name="pass2"
-				</li>
+				/>
 		
         
-        <li>
+             <li>
         	<input type="button" id="userReg_btn" value="Sign up!">
-        </li>
-		</ol>
+           </li>
+	</ol>
 
 		
 	

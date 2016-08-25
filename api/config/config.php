@@ -11,6 +11,7 @@
 	 include_once("obj/SystemManager.php");
 	 include_once("obj/userManager.php");
 	 include_once("obj/LeaseManager.php");
+	 include_once("obj/propertyManager.php");
 	 
 	// //Capture ALL POST data and put into $POSTPARAMS array
 	 if(!empty($_POST)){
@@ -29,4 +30,5 @@
 	$sysMgr 		= new SystemManager();
 	$userMgr 		= new UserManager();
 	$leaseMgr 		= new LeaseManager();
+	$propertyMgr 	= new propertyManager();
 ?>
